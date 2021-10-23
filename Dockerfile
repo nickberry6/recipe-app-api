@@ -4,7 +4,6 @@ MAINTAINER Nick Berry
 ENV PYTHONUNBUFFERED 1
 
 COPY ./requirements.txt /requirements.txt
-COPY ./flake8 /flake8
 RUN pip install -r /requirements.txt
 
 RUN mkdir /app
